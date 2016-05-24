@@ -17,6 +17,7 @@ applyFactorLoadingModel <- function(mydata, solution, factorNames, faMethodScore
   colnames(dfFactorScores) <- factorNames
 #trest
   #test2
+  #test3
   return(dfFactorScores)
 
 }
