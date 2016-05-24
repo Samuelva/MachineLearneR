@@ -15,7 +15,7 @@ applyFactorLoadingModel <- function(mydata, solution, factorNames, faMethodScore
   dfFactorScores <- data.frame(robustfa::computeScores(solution, x = mydataMatrix,
                                covmat = covList, cor = TRUE, scoresMethod = faMethodScores)$scores)
   colnames(dfFactorScores) <- factorNames
-
+#trest
   return(dfFactorScores)
 
 }
